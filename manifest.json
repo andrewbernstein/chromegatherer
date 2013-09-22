@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Gatherer",
+  "description": "This extension strips all but the card names, colors, and rarities from a Gatherer page.",
+  "version": "1.0",
+  "permissions" : [
+    "tabs",
+    "http://gatherer.wizards.com/*"
+  ],
+  "page_action": {
+    "default_icon": { "19": "g.png" },
+    "default_title": "WIZARDS"
+  },
+  "background": { "scripts": ["script.js"] },
+  "web_accessible_resources": [
+    "injecter.js",
+    "script.js",
+    "jquery.js"
+  ]
+}
