@@ -10,7 +10,7 @@
   ],
   "page_action": {
     "default_icon": { "19": "g.png" },
-    "default_title": "WIZARDS"
+    "default_title": "Chrome Gatherer"
   },
   "background": { "scripts": ["script.js"] },
   "web_accessible_resources": [
