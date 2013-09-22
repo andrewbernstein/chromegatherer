@@ -1,5 +1,5 @@
-Chrome Gatherer
-===============
+Strip Gatherer
+==============
 
 Do you play Magic: The Gathering?
 Do you use Google Chrome as a web browser?

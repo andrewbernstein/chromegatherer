@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome Gatherer",
+  "name": "Strip Gatherer",
   "description": "This extension strips all but the card names, colors, and rarities from a Gatherer page.",
   "version": "1.0",
   "permissions" : [
@@ -10,7 +10,7 @@
   ],
   "page_action": {
     "default_icon": { "19": "g.png" },
-    "default_title": "Chrome Gatherer"
+    "default_title": "Strip Gatherer"
   },
   "background": { "scripts": ["script.js"] },
   "web_accessible_resources": [
